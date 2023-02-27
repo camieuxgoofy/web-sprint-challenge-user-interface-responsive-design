@@ -1,146 +1,205 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/index.css" />
 
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="./dist/output.css" rel="stylesheet">
+    <title>Sprint Challenge - Home</title>
 
-	<title>Sprint Challenge - Home</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/5b12ffad4b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="">
+      <!-- header -->
+      <header>
+        <div class="bg__opacity py-6">
+          <h1 class="text-[] text-center">BLOOMTECH <br> BAR AND GRILL</h1>
+          <!-- nav -->
+          <nav class="w-full">
+            <div
+              class="flex flex-col items-center lg:flex-row lg:justify-evenly py-6"
+            >
+              <a href=""> Menu </a>
+              <a href=""> Reservations </a>
+              <a href=""> Special Offers </a>
+              <a href=""> Contact </a>
+            </div>
+          </nav>
+          <div class="flex justify-center space-x-5">
+            <a href="/">
+              <i class="text-[2.5rem] fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="/">
+              <i class="text-[2.5rem] fa-brands fa-square-twitter"></i>
+            </a>
+            <a href="/">
+              <i class="text-[2.5rem] fa-brands fa-square-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </header>
 
-	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
-	<script src="https://kit.fontawesome.com/5b12ffad4b.js" crossorigin="anonymous"></script>
-</head>
+      <!-- gallery section -->
+      <section class="gallery py-10">
+        <div>
+          <h2>OUR FOOD</h2>
+          <div
+            class="container mx-auto space-y-2 lg:space-y-0 lg:gap-2 lg:grid lg:grid-cols-3"
+          >
+            <div class="w-full py-6 lg:p-6">
+              <img class="w-full" src="img/food-avocadotoast.jpg" alt="" />
+            </div>
+            <div class="w-full py-6 lg:p-6">
+              <img class="w-full" src="img/food-burger.jpg" alt="" />
+            </div>
+            <div class="w-full py-6 lg:p-6">
+              <img class="w-full" src="img/food-poutine.jpg" alt="" />
+            </div>
+            <div class="w-full py-6 lg:p-6">
+              <img class="w-full" src="img/food-ribs.jpg" alt="" />
+            </div>
+            <div class="w-full py-6 lg:p-6">
+              <img class="w-full" src="img/food-sandwich.jpg" alt="" />
+            </div>
+            <div class="w-full py-6 lg:p-6">
+              <img class="w-full" src="img/food-sausage.jpg" alt="" />
+            </div>
+            <div class="w-full py-6 lg:p-6">
+              <img class="w-full" src="img/food-steak.jpg" alt="" />
+            </div>
+            <div class="w-full py-6 lg:p-6">
+              <img class="w-full" src="img/food-tacos.jpg" alt="" />
+            </div>
+            <div class="w-full py-6 lg:p-6">
+              <img class="w-full" src="img/food-wings.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
 
-<body>
-	<h1 class="text-3xl text-blue-800 font-bold underline">
-		Hello world!
-	  </h1>
-	<div>
-		<!-- header -->
-		<header>
-			<div>
-				BLOOMTECH BAR AND GRILL
+      <!-- spacer -->
+      <div class="spacer"></div>
 
-				<!-- nav -->
-				Menu
-				Reservations
-				Special Offers
-				Contact
-			</div>
-		</header>
+      <!-- about section -->
+      <section class="about">
+        <div class="about-container">
+          <h2 class="py-96">ABOUT US</h2>
 
-		<!-- gallery section -->
-		<section class="gallery">
-			<div>
-				<h2>OUR FOOD</h2>
+          <div id="cooks" class="pic"></div>
 
-				img/food-avocadotoast.jpg
+          <div class="text">
+            <h3>Good Food, Great People</h3>
+            <p class="text-[3.15rem]">
+              Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short
+              ribs tail dolore, fatback in tempor meatloaf pig sunt porchetta
+              beef. Ad hamburger pig veniam, andouille exercitation cillum
+              eiusmod doner irure tail burgdoggen rump chislic officia. Pancetta
+              frankfurter sed, est t-bone porchetta capicola id tri-tip cillum
+              cow leberkas do minim. Sausage ea velit boudin laboris dolore
+              short loin corned beef commodo jowl beef dolor tempor. Dolor culpa
+              enim in meatloaf, ham mollit shankle duis chicken dolore andouille
+              do tenderloin qui.
+            </p>
+          </div>
 
-				img/food-burger.jpg
+          <div id="bartender" class="pic"></div>
+        </div>
+      </section>
 
-				img/food-poutine.jpg
+      <!-- spacer -->
+      <div class="spacer"></div>
 
-				img/food-ribs.jpg
+      <!-- contact section -->
+      <section class="contact">
+        <div class="contact-container">
+          <h2>CONTACT US</h2>
 
-				img/food-sandwich.jpg
+          <div class="info">
+            <div class="address">
+              <h3>Address</h3>
 
-				img/food-sausage.jpg
+              <address>
+                <p>100 Main St</p>
+                <p>San Francisco, CA</p>
+              </address>
+            </div>
 
-				img/food-steak.jpg
+            <div class="hours">
+              <h3>Hours</h3>
 
-				img/food-tacos.jpg
+              <div>
+                <p>Sunday to Thursday:</p>
+                <p>12:00p - 12:00a</p>
+                <p>Friday and Saturday:</p>
+                <p>12:00p - 4:00a</p>
+              </div>
+            </div>
 
-				img/food-wings.jpg
-			</div>
-		</section>
+            <div class="contacts">
+              <h3>Contacts</h3>
 
-		<!-- spacer -->
-		<div class="spacer"></div>
+              <div>
+                <a id="phone" href="tel:999-999-9999">999-999-9999</a>
+                <br />
+                <a id="email" href="mailto:restaurant@bloomtech.com"
+                  >restaurant@bloomtech.com</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-		<!-- about section -->
-		<section class="about">
-			<div class="about-container">
-				<h2>ABOUT US</h2>
+      <!-- spacer -->
+      <div class="spacer-sm"></div>
 
-				<div id="cooks" class="pic">
-				</div>
-
-				<div class="text">
-					<h3>Good Food, Great People</h3>
-					<p>Quis duis aute, shank ut pork eiusmod in ball tip jerky non. Short ribs tail dolore, fatback in
-						tempor meatloaf pig sunt porchetta beef. Ad hamburger pig veniam, andouille exercitation cillum
-						eiusmod doner irure tail burgdoggen rump chislic officia. Pancetta frankfurter sed, est t-bone
-						porchetta capicola id tri-tip cillum cow leberkas do minim. Sausage ea velit boudin laboris
-						dolore
-						short loin corned beef commodo jowl beef dolor tempor. Dolor culpa enim in meatloaf, ham mollit
-						shankle duis chicken dolore andouille do tenderloin qui.</p>
-				</div>
-
-				<div id="bartender" class="pic">
-				</div>
-			</div>
-		</section>
-
-		<!-- spacer -->
-		<div class="spacer"></div>
-
-		<!-- contact section -->
-		<section class="contact">
-			<div class="contact-container">
-				<h2>CONTACT US</h2>
-
-				<div class="info">
-					<div class="address">
-						<h3>Address</h3>
-
-						<address>
-							<p>100 Main St</p>
-							<p>San Francisco, CA</p>
-						</address>
-					</div>
-
-					<div class="hours">
-						<h3>Hours</h3>
-
-						<div>
-							<p>Sunday to Thursday:</p>
-							<p>12:00p - 12:00a</p>
-							<p>Friday and Saturday:</p>
-							<p>12:00p - 4:00a</p>
-						</div>
-					</div>
-
-					<div class="contacts">
-						<h3>Contacts</h3>
-
-						<div>
-							<a id="phone" href="tel:999-999-9999">999-999-9999</a>
-							<a id="email" href="mailto:restaurant@bloomtech.com">restaurant@bloomtech.com</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!-- spacer -->
-		<div class="spacer-sm"></div>
-
-		<!-- footer -->
-		<footer>
-			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
-			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
-			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
-		</footer>
-	</div>
-</body>
-
+      <!-- footer -->
+      <footer class="bg-black py-20">
+        <!-- email signup -->
+        <div class="lg:flex w-full justify-around">
+          <div class="w-full flex flex-col justify-center align-middle">
+            <p class="text-center">Join our mailing list!</p>
+            <div class="flex justify-center">
+              <div class="flex flex-col w-[90%]">
+                <input
+                  class="my-1"
+                  type="text"
+                  name=""
+                  id=""
+                  placeholder="Email Address"
+                />
+                <button class="text-center bg-gray-200 text-black">
+                  Sign Up
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- nav -->
+          <div class="py-6 flex flex-col text-center">
+            <a href="">Menu</a>
+            <a href="">Reservations</a>
+            <a href="">Special Offers</a>
+            <a href="">Contact</a>
+          </div>
+        </div>
+        <!-- copyright -->
+        <div class="flex justify-center">
+          <div class="w-[70%] flex bg-black">
+            <p class="text-[1.65rem] text-center">
+              ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
 </html>
