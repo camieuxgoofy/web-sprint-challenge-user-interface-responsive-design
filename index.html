@@ -18,31 +18,41 @@
     ></script>
   </head>
   <body>
-    <div class="">
+    <div class="bg-[#000411]">
       <!-- header -->
       <header>
         <div class="bg__opacity py-6">
-          <h1 class="text-[] text-center">BLOOMTECH <br> BAR AND GRILL</h1>
+          <h1 class="hidden lg:block text-center">BLOOMTECH BAR AND GRILL</h1>
+          <h1 class="lg:hidden text-center">
+            BLOOMTECH <br />
+            BAR AND GRILL
+          </h1>
           <!-- nav -->
           <nav class="w-full">
             <div
               class="flex flex-col items-center lg:flex-row lg:justify-evenly py-6"
             >
-              <a href=""> Menu </a>
-              <a href=""> Reservations </a>
-              <a href=""> Special Offers </a>
-              <a href=""> Contact </a>
+              <a href="">Menu</a>
+              <a href="">Reservations</a>
+              <a href="">Special Offers</a>
+              <a href="">Contact</a>
             </div>
           </nav>
-          <div class="flex justify-center space-x-5">
+          <div class="flex justify-center space-x-5 lg:space-x-32">
             <a href="/">
-              <i class="text-[2.5rem] fa-brands fa-square-facebook"></i>
+              <i
+                class="text-[2.5rem] lg:text-[3rem] fa-brands fa-square-facebook"
+              ></i>
             </a>
             <a href="/">
-              <i class="text-[2.5rem] fa-brands fa-square-twitter"></i>
+              <i
+                class="text-[2.5rem] lg:text-[3rem] fa-brands fa-square-twitter"
+              ></i>
             </a>
             <a href="/">
-              <i class="text-[2.5rem] fa-brands fa-square-instagram"></i>
+              <i
+                class="text-[2.5rem] lg:text-[3rem] fa-brands fa-square-instagram"
+              ></i>
             </a>
           </div>
         </div>
@@ -92,7 +102,7 @@
       <!-- about section -->
       <section class="about">
         <div class="about-container">
-          <h2 class="py-96">ABOUT US</h2>
+          <h2 class="py-96 lg:py-0">ABOUT US</h2>
 
           <div id="cooks" class="pic"></div>
 
@@ -163,38 +173,43 @@
       <div class="spacer-sm"></div>
 
       <!-- footer -->
-      <footer class="bg-black py-20">
+      <footer class="py-20 h-auto">
         <!-- email signup -->
-        <div class="lg:flex w-full justify-around">
-          <div class="w-full flex flex-col justify-center align-middle">
-            <p class="text-center">Join our mailing list!</p>
-            <div class="flex justify-center">
-              <div class="flex flex-col w-[90%]">
-                <input
-                  class="my-1"
-                  type="text"
-                  name=""
-                  id=""
-                  placeholder="Email Address"
-                />
-                <button class="text-center bg-gray-200 text-black">
-                  Sign Up
-                </button>
+
+          <div class="lg:flex lg:justify-between mx-48">
+            <div class="flex flex-col justify-center align-middle">
+              <p class="text-center">Join our mailing list!</p>
+              <div class="flex justify-center">
+                <div class="flex flex-col lg:flex-row w-[90%] lg:w-full">
+                  <input
+                    class="my-1 lg:py-2 lg:px-24"
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Email Address"
+                  />
+                  <button
+                    class="text-center bg-gray-200 text-black lg:mr-2 lg:py-2 lg:px-12"
+                  >
+                    Sign Up
+                  </button>
+                </div>
               </div>
             </div>
+            <!-- nav -->
+            <div
+              class="py-6 flex lg:items-center flex-col lg:flex-row text-center lg:space-x-56"
+            >
+              <a href="">Menu</a>
+              <a href="">Reservations</a>
+              <a href="">Special Offers</a>
+              <a href="">Contact</a>
+            </div>
           </div>
-          <!-- nav -->
-          <div class="py-6 flex flex-col text-center">
-            <a href="">Menu</a>
-            <a href="">Reservations</a>
-            <a href="">Special Offers</a>
-            <a href="">Contact</a>
-          </div>
-        </div>
         <!-- copyright -->
-        <div class="flex justify-center">
-          <div class="w-[70%] flex bg-black">
-            <p class="text-[1.65rem] text-center">
+        <div class="flex lg:items-center justify-center">
+          <div class="w-[70%] flex bg-black lg:justify-end lg:w-[83%]">
+            <p class="text-[1.65rem] text-center lg:text-[2.25rem]">
               ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
             </p>
           </div>

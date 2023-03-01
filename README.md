@@ -113,3 +113,5 @@ Dark borders: rgb(0, 4, 17);
 ​
 ## Extra Resources 
 🦄 [Sprint Study Guide](https://bloomtech.notion.site/bloomtech/Unit-1-Sprint-3-Study-Guide-8769748b8c284f7095f6542fe24192a7)
+
+> npx tailwindcss -i ./css/input.css -o ./dist/output.css --watch

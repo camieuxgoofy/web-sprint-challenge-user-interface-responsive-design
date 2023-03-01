@@ -182,6 +182,10 @@ a {
     font-size: 3rem;
 }
 
+button {
+    outline: inset;
+}
+
 /* header section */
 header {
     width: 100%;
